@@ -1,0 +1,18 @@
+package com.codingdojo.bankAccount;
+
+public class BankAccount {
+	private String accountNumber;   /// attributes of this class 
+	private double checking;
+	private double savings;
+	private static int numberOfAccounts = 0; // class member
+	private static double total = 0.0;
+	
+	public BankAccount() {
+		this.accountNumber = this.generateAccountNumber();
+		numberOfAccounts++;
+	}
+	public String getAccountNumber() {
+		return this.accountNumber;
+	}
+	
+}

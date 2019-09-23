@@ -1,0 +1,9 @@
+package com.codingdojo.phone;
+
+public class Galaxy {
+
+	public Galaxy() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

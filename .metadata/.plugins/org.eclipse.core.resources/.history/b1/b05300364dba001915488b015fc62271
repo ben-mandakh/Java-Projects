@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Checker Board</title>
+</head>
+<body>
+	
+	
+	<h3> Checkerboard: 10W X 5H</h3>
+	
+	
+</body>
+</html>

@@ -1,0 +1,42 @@
+package com.codingdojo.calculator1;
+
+public class Calculator1 {
+	private static double result = 0.0;
+	private double operAndOne;
+	private double operAndTwo;
+	private String operation;
+
+///////////////////////////////////////////////////////////////////
+	
+	public double performOperation(String operator, double num1, double num2) {
+		if(operator.equals("+")) {
+			result = num1 + num2;
+			return result;
+		
+		} else if(operator.equals("-")) {
+			result = num1-num2;
+			return result;
+		} else  {
+			result = num1*num2;
+			return result;
+	}
+
+//////////////////// GETTER, SETTER SECTION ///////////////////////
+	
+	public double getOperAndOne() {
+		return operAndOne;
+	}
+	public void setOperandOne(double operAndOne) {
+		this.operAndOne = operAndOne;
+	}
+	
+	public double getOperAndTwo() {
+		return operAndTwo;
+	}
+	public void setOperandTwo(double operAndTwo) {
+		this.operAndTwo = operAndTwo;
+	}
+	public static double getResults() {
+		return result;
+	}
+}

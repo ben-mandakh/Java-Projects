@@ -1,0 +1,9 @@
+package com.codingdojo.phone;
+
+public class PhoneTester {
+
+	public PhoneTester() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

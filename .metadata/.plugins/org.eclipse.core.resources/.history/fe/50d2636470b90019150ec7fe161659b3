@@ -1,0 +1,9 @@
+package com.codingdojo.calculator1;
+
+public class Calculator1 {
+
+	public Calculator1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
